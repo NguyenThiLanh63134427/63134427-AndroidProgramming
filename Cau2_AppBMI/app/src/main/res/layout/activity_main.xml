@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CEDCDC"
+    android:background="#BFCFCF"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -29,7 +29,7 @@
         android:layout_above="@id/heightlayout"
         android:layout_marginBottom="35dp"
         android:layout_marginRight="20dp"
-        android:background="#D1BBAB"
+        android:background="#009688"
         android:layout_marginLeft="20dp"
         android:id="@+id/male">
 
@@ -64,7 +64,7 @@
         android:layout_marginRight="20dp"
         android:layout_toEndOf="@id/centerverticalline"
         android:layout_marginLeft="20dp"
-        android:background="#D1BBAB"
+        android:background="#009688"
         android:id="@+id/female">
 
         <ImageView
@@ -101,7 +101,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:background="#D1BBAB"
+        android:background="#009688"
         android:id="@+id/heightlayout">
 
         <TextView
@@ -159,7 +159,7 @@
         android:id="@+id/btnTinhBMI"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="40dp"
-        android:backgroundTint="#D1BBAB"
+        android:backgroundTint="#009688"
         android:text="TÍNH BMI NGAY NÀO"
         android:textSize="15sp"
         android:textColor="@color/black"
@@ -177,7 +177,7 @@
         android:layout_marginTop="85dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:background="#D1BBAB"
+        android:background="#009688"
         android:id="@+id/Weight">
 
 
@@ -246,7 +246,7 @@
         android:layout_marginTop="85dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:background="#D1BBAB"
+        android:background="#009688"
         android:id="@+id/Age">
 
 
