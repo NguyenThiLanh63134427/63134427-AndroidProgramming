@@ -130,7 +130,6 @@ public class MainActivity extends AppCompatActivity {
         String resultMessage = String.format("Kết quả BMI của bạn: %.2f\n", bmi);
         String bmiCategory = getBMICategory(bmi);
         resultMessage += bmiCategory;
-        resultMessage += "\nGiới tính: " + selectedGender; // Thêm thông tin về giới tính vào kết quả
         showResultDialog(resultMessage);
     }
 
