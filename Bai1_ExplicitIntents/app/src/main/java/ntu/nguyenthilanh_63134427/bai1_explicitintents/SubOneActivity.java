@@ -14,7 +14,7 @@ public class SubOneActivity extends AppCompatActivity {
         setContentView(R.layout.activity_sub_one);
     }
 
-    public void QuayVe(View v) {
+    public void QuayLai(View v) {
         Intent ManHinhChinh = new Intent(this, MainActivity.class);
         startActivity(ManHinhChinh);
     }
